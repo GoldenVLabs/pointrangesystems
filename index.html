@@ -24,7 +24,8 @@
 <link rel="manifest" href="site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@700;800&amp;display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="images/hero-field-golden-hour.webp" type="image/webp" fetchpriority="high">
+<link rel="preload" as="image" href="images/field/hero-gateway-install.webp" type="image/webp" fetchpriority="high" media="(min-width: 701px)">
+<link rel="preload" as="image" href="images/field/hero-gateway-install-mobile.webp" type="image/webp" fetchpriority="high" media="(max-width: 700px)">
 <link rel="stylesheet" href="css/styles.css">
 <script>document.documentElement.className="js";</script>
 <script type="application/ld+json">
@@ -55,7 +56,12 @@
 
 <!-- HERO -->
 <section class="hero" id="top">
-  <picture><source srcset="images/hero-field-golden-hour.webp" type="image/webp"><img src="images/hero-field-golden-hour.jpg" alt="Open farm field at golden hour with mountains on the horizon near Klamath Falls, Oregon" width="1920" height="1080" fetchpriority="high" decoding="async"></picture>
+  <picture>
+    <source media="(max-width: 700px)" srcset="images/field/hero-gateway-install-mobile.webp" type="image/webp" width="800" height="1000">
+    <source media="(max-width: 700px)" srcset="images/field/hero-gateway-install-mobile.jpg" width="800" height="1000">
+    <source srcset="images/field/hero-gateway-install.webp" type="image/webp">
+    <img src="images/field/hero-gateway-install.jpg" alt="PointRange installer mounting a LoRaWAN gateway and antenna on a pole at a roof edge, under a clear blue sky" width="1920" height="1080" fetchpriority="high" decoding="async">
+  </picture>
   <div class="wrap">
     <span class="eyebrow">Oregon Roots. Remote Reach.</span>
     <h1>Know what&rsquo;s happening at every tank, well and field without driving out to check.</h1>
@@ -107,6 +113,53 @@
       <li><h3>Dashboard &amp; alerts</h3><p>See live readings and history on any device. Get an alert on your phone or by email when a limit you set is crossed.</p></li>
       <li><h3>Ongoing support</h3><p>We watch batteries, signal and check-ins, adjust alerts, and handle maintenance. A local person answers.</p></li>
     </ol>
+    <div class="explainers">
+      <figure class="explainer">
+        <picture>
+          <source media="(max-width: 600px)" srcset="images/illustrations/soil-sensor-how-it-works-mobile.svg" width="480" height="1522">
+          <img src="images/illustrations/soil-sensor-how-it-works.svg" width="800" height="918" loading="lazy" decoding="async" alt="Diagram of a three-prong soil probe buried about 6 inches deep in the root zone, wired to a sensor node. The probe measures soil moisture by sensing how the soil between its prongs holds an electric field, electrical conductivity from a tiny current between the prongs (higher with salts and nutrients), and soil temperature from a sensor inside the probe. Readings travel over LoRaWAN to a gateway, then to a dashboard and phone alert.">
+        </picture>
+      </figure>
+      <figure class="explainer">
+        <picture>
+          <source media="(max-width: 600px)" srcset="images/illustrations/tank-level-how-it-works-mobile.svg" width="480" height="1492">
+          <img src="images/illustrations/tank-level-how-it-works.svg" width="800" height="918" loading="lazy" decoding="async" alt="Diagram of a water tank with a pressure probe resting on the bottom on its cable. The water above the probe pushes on it, so more water means more pressure, which is converted to depth, percent full and gallons. A node outside the tank sends readings over LoRaWAN to a gateway, then to a dashboard, with an alert when the level drops below a low line.">
+        </picture>
+      </figure>
+    </div>
+    <div class="field-strip">
+      <h3>From the field</h3>
+      <div class="field-grid">
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="images/field/sensor-hardware-800.webp 800w, images/field/sensor-hardware.webp 1600w" sizes="(max-width: 700px) 50vw, 270px">
+            <img src="images/field/sensor-hardware-800.jpg" srcset="images/field/sensor-hardware-800.jpg 800w, images/field/sensor-hardware.jpg 1600w" sizes="(max-width: 700px) 50vw, 270px" width="800" height="800" loading="lazy" decoding="async" alt="LoRaWAN soil sensor node, three-prong soil probe and coiled cable laid on garden soil before installation">
+          </picture>
+          <figcaption>The hardware: node, three-prong probe and cable.</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="images/field/soil-probe-root-depth-800.webp 800w, images/field/soil-probe-root-depth.webp 1600w" sizes="(max-width: 700px) 50vw, 270px">
+            <img src="images/field/soil-probe-root-depth-800.jpg" srcset="images/field/soil-probe-root-depth-800.jpg 800w, images/field/soil-probe-root-depth.jpg 1600w" sizes="(max-width: 700px) 50vw, 270px" width="800" height="800" loading="lazy" decoding="async" alt="Soil probe pushed into the side wall of a freshly dug hole at root depth, with its cable running out">
+          </picture>
+          <figcaption>Probe set into the side of a hole at root depth.</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="images/field/garden-soil-node-800.webp 800w, images/field/garden-soil-node.webp 1600w" sizes="(max-width: 700px) 50vw, 270px">
+            <img src="images/field/garden-soil-node-800.jpg" srcset="images/field/garden-soil-node-800.jpg 800w, images/field/garden-soil-node.jpg 1600w" sizes="(max-width: 700px) 50vw, 270px" width="800" height="800" loading="lazy" decoding="async" alt="Soil sensor node and probe cable installed in a garden bed among young tomato plants">
+          </picture>
+          <figcaption>A soil node reporting from a garden bed.</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <source type="image/webp" srcset="images/field/irrigation-pump-station-800.webp 800w, images/field/irrigation-pump-station.webp 1600w" sizes="(max-width: 700px) 50vw, 270px">
+            <img src="images/field/irrigation-pump-station-800.jpg" srcset="images/field/irrigation-pump-station-800.jpg 800w, images/field/irrigation-pump-station.jpg 1600w" sizes="(max-width: 700px) 50vw, 270px" width="800" height="800" loading="lazy" decoding="async" alt="Black-and-white photo of an irrigation pump station with a large pipe running into a canal">
+          </picture>
+          <figcaption>Pumps like this can report on/off and run time.</figcaption>
+        </figure>
+      </div>
+    </div>
     <ul class="mini-tech">
       <li><strong><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>Rugged sensors</strong>Battery-powered soil, level/pressure and switch sensors. Batteries typically last years.</li>
       <li><strong><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 10v12"/><path d="M8 22l4-12 4 12"/><path d="M9.5 17h5"/><circle cx="12" cy="7" r="1.5"/><path d="M8 3.5a5 5 0 0 0 0 7M16 3.5a5 5 0 0 1 0 7"/></svg>LoRaWAN radio</strong>Long-range, low-power. Often a mile or more in open terrain, with no trenching.</li>

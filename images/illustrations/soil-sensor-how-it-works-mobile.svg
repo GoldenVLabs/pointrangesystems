@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 1522" width="480" height="1522" role="img" aria-labelledby="soil-title soil-desc">
+<title id="soil-title">How a three-prong soil sensor works</title>
+<desc id="soil-desc">Cutaway of a field: a three-prong soil probe is buried about 6 inches deep in the root zone and wired to a sensor node on a stake. Callouts explain that the probe measures soil moisture (volumetric water content) by sensing how the soil between the prongs holds an electric field, electrical conductivity (how easily a tiny current flows between the prongs, which rises with salts and nutrients), and soil temperature from a sensor inside the probe. The node sends readings over LoRaWAN radio to a gateway, then to a dashboard and a phone alert.</desc>
+<rect width="480" height="1522" rx="24" fill="#F4FAFC"/>
+<text x="28" y="50" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#002038" text-anchor="start"><tspan x="28" dy="0">How a soil sensor reads</tspan><tspan x="28" dy="29.9">the root zone</tspan></text>
+<text x="28" y="113.9" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#4A6272" text-anchor="start"><tspan x="28" dy="0">One three-prong probe measures three things.</tspan></text>
+<g transform="translate(24,130) scale(1.2000) translate(-24,-120)"><clipPath id="scene"><rect x="24" y="120" width="360" height="500" rx="18"/></clipPath>
+<g clip-path="url(#scene)">
+<rect x="24" y="120" width="360" height="142" fill="#E4F3F8"/>
+<path d="M24 210 L90 186 L150 200 L230 172 L300 194 L384 180 V262 H24 Z" fill="#CFE6EE"/>
+<rect x="24" y="262" width="360" height="358" fill="#EFE5D2"/>
+<rect x="24" y="412" width="360" height="208" fill="#E6D9C0"/>
+<circle cx="113" cy="311" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="39" cy="461" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="307" cy="533" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="300" cy="554" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="106" cy="588" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="309" cy="545" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="89" cy="373" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="363" cy="561" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="62" cy="480" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="165" cy="360" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="353" cy="567" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="321" cy="278" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="229" cy="572" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="99" cy="418" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="137" cy="549" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="60" cy="431" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="264" cy="298" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="95" cy="422" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="142" cy="464" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="67" cy="297" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="127" cy="472" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="74" cy="590" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="190" cy="290" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="60" cy="600" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="285" cy="599" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="143" cy="384" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="299" cy="414" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="244" cy="576" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="79" cy="404" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="146" cy="279" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="309" cy="611" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="65" cy="606" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="347" cy="314" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="51" cy="333" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="366" cy="480" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="375" cy="317" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="133" cy="611" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="372" cy="437" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="107" cy="425" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="338" cy="555" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="97" cy="288" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="115" cy="346" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="175" cy="364" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="50" cy="588" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="72" cy="467" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="257" cy="542" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="46" cy="406" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="105" cy="570" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="148" cy="497" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="140" cy="417" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="257" cy="506" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="148" cy="408" r="2.5" fill="#C9B48F" opacity=".7"/>
+<circle cx="58" cy="602" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="262" cy="291" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="76" cy="601" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="327" cy="568" r="3" fill="#C9B48F" opacity=".7"/>
+<circle cx="289" cy="588" r="2" fill="#C9B48F" opacity=".7"/>
+<circle cx="307" cy="347" r="2" fill="#C9B48F" opacity=".7"/>
+<path d="M38 547 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M73 527 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M300 548 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M221 548 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M103 486 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M146 552 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M297 427 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M46 463 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M200 544 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M157 515 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M319 533 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M63 448 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M164 521 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M140 356 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M199 574 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M66 320 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M245 550 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M326 517 q4 6 0 9 q-4 -3 0 -9z" fill="#00B2D4" opacity=".55"/>
+<path d="M24 262 H384" stroke="#1E7047" stroke-width="4"/>
+<path d="M34 262 l-4 -14 M38 262 l2 -18 M42 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M56 262 l-4 -14 M60 262 l2 -18 M64 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M78 262 l-4 -14 M82 262 l2 -18 M86 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M100 262 l-4 -14 M104 262 l2 -18 M108 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M122 262 l-4 -14 M126 262 l2 -18 M130 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M144 262 l-4 -14 M148 262 l2 -18 M152 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M166 262 l-4 -14 M170 262 l2 -18 M174 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M188 262 l-4 -14 M192 262 l2 -18 M196 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M210 262 l-4 -14 M214 262 l2 -18 M218 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M232 262 l-4 -14 M236 262 l2 -18 M240 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M254 262 l-4 -14 M258 262 l2 -18 M262 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M276 262 l-4 -14 M280 262 l2 -18 M284 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M298 262 l-4 -14 M302 262 l2 -18 M306 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M320 262 l-4 -14 M324 262 l2 -18 M328 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M342 262 l-4 -14 M346 262 l2 -18 M350 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M364 262 l-4 -14 M368 262 l2 -18 M372 262 l6 -12" stroke="#3FA66B" stroke-width="3" stroke-linecap="round"/>
+<path d="M358 262 V204" stroke="#1E7047" stroke-width="4" stroke-linecap="round"/><path d="M358 232 q-26 -6 -30 -28 q24 2 30 28z M358 218 q24 -8 28 -30 q-24 4 -28 30z" fill="#3FA66B"/>
+<path d="M358 262 q-6 40 -16 80 M358 262 q8 44 4 110 M358 292 q20 20 26 60 M352 312 q-18 20 -20 50" fill="none" stroke="#B59A6A" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="92" y="190" width="8" height="118" fill="#1E3A4C"/>
+<rect x="68" y="172" width="56" height="58" rx="9" fill="#FFFFFF" stroke="#002038" stroke-width="3.5"/><circle cx="96" cy="194" r="6" fill="#3FA66B"/><path d="M82 214 h28" stroke="#D3E6EE" stroke-width="4" stroke-linecap="round"/>
+<path d="M112 172 V146" stroke="#002038" stroke-width="4" stroke-linecap="round"/>
+<path d="M126 124 a12 12 0 0 1 0 24" fill="none" stroke="#00B2D4" stroke-width="3.5" stroke-linecap="round" transform="translate(8,50)"/>
+<path d="M126 114 a22 22 0 0 1 0 44" fill="none" stroke="#00B2D4" stroke-width="3.5" stroke-linecap="round" transform="translate(8,50)"/>
+<path d="M126 104 a32 32 0 0 1 0 64" fill="none" stroke="#00B2D4" stroke-width="3.5" stroke-linecap="round" transform="translate(8,50)"/>
+<rect x="66" y="130" width="60" height="28" rx="7" fill="#FFFFFF" opacity=".9"/><text x="96" y="150" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#002038" text-anchor="middle"><tspan x="96" dy="0">Node</tspan></text>
+<path d="M100 284 C136 292 222 272 232 318" fill="none" stroke="#1E3A4C" stroke-width="5" stroke-linecap="round"/>
+<rect x="202" y="318" width="60" height="74" rx="12" fill="#002038"/><rect x="202" y="378" width="60" height="14" fill="#1E3A4C"/>
+<path d="M212 392 V488" stroke="#9FB3BF" stroke-width="7" stroke-linecap="round"/><path d="M212 392 V488" stroke="#DCE6EB" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M232 392 V488" stroke="#9FB3BF" stroke-width="7" stroke-linecap="round"/><path d="M232 392 V488" stroke="#DCE6EB" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M252 392 V488" stroke="#9FB3BF" stroke-width="7" stroke-linecap="round"/><path d="M252 392 V488" stroke="#DCE6EB" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M212 420 q10 -10 20 0 q10 10 20 0" fill="none" stroke="#0E7C86" stroke-width="2.5" stroke-dasharray="4 4"/>
+<path d="M212 446 q10 -10 20 0 q10 10 20 0" fill="none" stroke="#0E7C86" stroke-width="2.5" stroke-dasharray="4 4"/>
+<path d="M212 472 q10 -10 20 0 q10 10 20 0" fill="none" stroke="#0E7C86" stroke-width="2.5" stroke-dasharray="4 4"/>
+<path d="M212 410 q-36 30 0 70 M252 410 q36 30 0 70" fill="none" stroke="#0E7C86" stroke-width="2.5" stroke-dasharray="4 4"/>
+<circle cx="222" cy="432" r="3.5" fill="#3FA66B"/>
+<circle cx="244" cy="458" r="3.5" fill="#3FA66B"/>
+<circle cx="224" cy="478" r="3.5" fill="#3FA66B"/>
+<circle cx="240" cy="412" r="3.5" fill="#3FA66B"/>
+<rect x="227" y="330" width="10" height="30" rx="5" fill="#FFFFFF"/><circle cx="232" cy="364" r="8" fill="#FFFFFF"/><circle cx="232" cy="364" r="5" fill="#00B2D4"/><rect x="230" y="342" width="4" height="20" fill="#00B2D4"/>
+<path d="M300 268 V458 M292 268 H308 M292 458 H308" stroke="#002038" stroke-width="2.5"/>
+<rect x="266" y="339" width="68" height="44" rx="8" fill="#FFFFFF" stroke="#D3E6EE" stroke-width="2"/>
+<text x="300" y="357" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#4A6272" text-anchor="middle"><tspan x="300" dy="0">about</tspan></text>
+<text x="300" y="377" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#002038" text-anchor="middle"><tspan x="300" dy="0">6 in</tspan></text>
+<text x="40" y="602" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#7A6440" text-anchor="start"><tspan x="40" dy="0">Root zone</tspan></text>
+<circle cx="170" cy="446" r="15" fill="#0E7C86" stroke="#FFFFFF" stroke-width="3"/><text x="170" y="452" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="170" dy="0">1</tspan></text>
+<circle cx="292" cy="470" r="15" fill="#3FA66B" stroke="#FFFFFF" stroke-width="3"/><text x="292" y="476" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="292" dy="0">2</tspan></text>
+<circle cx="174" cy="348" r="15" fill="#00B2D4" stroke="#FFFFFF" stroke-width="3"/><text x="174" y="354" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="174" dy="0">3</tspan></text>
+</g>
+<rect x="24" y="120" width="360" height="500" rx="18" fill="none" stroke="#D3E6EE" stroke-width="2"/></g>
+<g><rect x="24" y="752.0" width="432" height="183" rx="14" fill="#FFFFFF" stroke="#D3E6EE" stroke-width="2"/><rect x="24" y="752.0" width="8" height="183" rx="4" fill="#0E7C86"/><circle cx="60" cy="784.0" r="16" fill="#0E7C86"/><text x="60" y="791.0" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="60" dy="0">1</tspan></text><text x="86" y="791.0" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" font-weight="800" fill="#002038" text-anchor="start"><tspan x="86" dy="0">Moisture</tspan></text><text x="46" y="822.0" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18.5" font-weight="400" fill="#1E3A4C" text-anchor="start"><tspan x="46" dy="0">Water in the soil (volumetric water</tspan><tspan x="46" dy="24.1">content). The probe senses how the</tspan><tspan x="46" dy="24.1">soil between its prongs holds an</tspan><tspan x="46" dy="24.1">electric field (dielectric). Wetter</tspan><tspan x="46" dy="24.1">soil reads higher.</tspan></text></g>
+<g><rect x="24" y="951.0" width="432" height="133" rx="14" fill="#FFFFFF" stroke="#D3E6EE" stroke-width="2"/><rect x="24" y="951.0" width="8" height="133" rx="4" fill="#3FA66B"/><circle cx="60" cy="983.0" r="16" fill="#3FA66B"/><text x="60" y="990.0" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="60" dy="0">2</tspan></text><text x="86" y="990.0" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" font-weight="800" fill="#002038" text-anchor="start"><tspan x="86" dy="0">EC (conductivity)</tspan></text><text x="46" y="1021.0" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18.5" font-weight="400" fill="#1E3A4C" text-anchor="start"><tspan x="46" dy="0">How easily a tiny current flows</tspan><tspan x="46" dy="24.1">between the prongs. It rises with</tspan><tspan x="46" dy="24.1">dissolved salts and nutrients.</tspan></text></g>
+<g><rect x="24" y="1100.0" width="432" height="108" rx="14" fill="#FFFFFF" stroke="#D3E6EE" stroke-width="2"/><rect x="24" y="1100.0" width="8" height="108" rx="4" fill="#00B2D4"/><circle cx="60" cy="1132.0" r="16" fill="#00B2D4"/><text x="60" y="1139.0" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="60" dy="0">3</tspan></text><text x="86" y="1139.0" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" font-weight="800" fill="#002038" text-anchor="start"><tspan x="86" dy="0">Temperature</tspan></text><text x="46" y="1170.0" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18.5" font-weight="400" fill="#1E3A4C" text-anchor="start"><tspan x="46" dy="0">A sensor inside the probe reads</tspan><tspan x="46" dy="24.1">soil temperature at that depth.</tspan></text></g>
+<g aria-hidden="true"><rect x="24" y="1230.0" width="432" height="150" rx="18" fill="#E4F3F8"/><rect x="54" y="1262.0" width="48" height="52" rx="8" fill="#FFFFFF" stroke="#002038" stroke-width="3"/><circle cx="78" cy="1288.0" r="7" fill="#3FA66B"/><path d="M108 1274.0 a14 14 0 0 1 0 28" fill="none" stroke="#00B2D4" stroke-width="3" stroke-linecap="round"/><path d="M108 1264.0 a24 24 0 0 1 0 48" fill="none" stroke="#00B2D4" stroke-width="3" stroke-linecap="round"/><path d="M168 1318.0 L186 1266.0 L204 1318.0 M175 1298.0 H197 M180 1282.0 H192" fill="none" stroke="#002038" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="186" cy="1262.0" r="5" fill="#002038"/><path d="M174 1259.6 a12 12 0 0 1 24 0" fill="none" stroke="#00B2D4" stroke-width="3" stroke-linecap="round" transform="translate(0,-3.5999999999999996)"/><path d="M166 1258.0 a20 20 0 0 1 40 0" fill="none" stroke="#00B2D4" stroke-width="3" stroke-linecap="round" transform="translate(0,-6.0)"/><rect x="260" y="1262.0" width="68" height="46" rx="6" fill="#FFFFFF" stroke="#002038" stroke-width="3"/><path d="M270 1296.0 l14 -12 l12 8 l20 -18" fill="none" stroke="#0E7C86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M282 1318.0 h24" stroke="#002038" stroke-width="3" stroke-linecap="round"/><rect x="382" y="1256.0" width="40" height="66" rx="8" fill="#FFFFFF" stroke="#002038" stroke-width="3"/><circle cx="402" cy="1286.0" r="11" fill="#F2A33A"/><path d="M402 1280.0 v7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/><circle cx="402" cy="1292.0" r="1.8" fill="#FFFFFF"/><path d="M118 1288.0 H162" stroke="#0E7C86" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/><path d="M153 1281.0 L162 1288.0 L153 1295.0" fill="none" stroke="#0E7C86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M208 1288.0 H254" stroke="#0E7C86" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/><path d="M245 1281.0 L254 1288.0 L245 1295.0" fill="none" stroke="#0E7C86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M332 1288.0 H378" stroke="#0E7C86" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/><path d="M369 1281.0 L378 1288.0 L369 1295.0" fill="none" stroke="#0E7C86" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g><text x="78" y="1358.0" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#002038" text-anchor="middle"><tspan x="78" dy="0">Node</tspan></text><text x="186" y="1358.0" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#002038" text-anchor="middle"><tspan x="186" dy="0">Gateway</tspan></text><text x="294" y="1358.0" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#002038" text-anchor="middle"><tspan x="294" dy="0">Dashboard</tspan></text><text x="402" y="1358.0" font-family="Manrope, Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#002038" text-anchor="middle"><tspan x="402" dy="0">Alert</tspan></text><text x="400" y="1218.0" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="1" font-weight="400" fill="#1E3A4C" text-anchor="start"><tspan x="400" dy="0"></tspan></text>
+<text x="240.0" y="1420.0" font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#4A6272" text-anchor="middle"><tspan x="240.0" dy="0">The node sends readings over LoRaWAN radio</tspan><tspan x="240.0" dy="22.1">to a gateway, then to your dashboard.</tspan><tspan x="240.0" dy="22.1">Set a limit and get an alert.</tspan></text>
+</svg>

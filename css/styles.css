@@ -475,3 +475,22 @@ footer p { margin: 0; line-height: 1.8; }
   .hero { min-height: 0; }
   section { padding: 24px 0; }
 }
+
+/* ---------- Hero photo: gateway install ---------- */
+.hero picture, .hero picture img { object-position: 78% 40%; }
+@media (max-width: 700px) { .hero picture, .hero picture img { object-position: 50% 30%; } }
+
+/* ---------- How-it-works explainer illustrations ---------- */
+.explainers { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2.5rem 0 2rem; }
+.explainer { margin: 0; }
+.explainer img { display: block; width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow); background: var(--mist); }
+@media (max-width: 900px) { .explainers { grid-template-columns: 1fr; max-width: 640px; margin-left: auto; margin-right: auto; } }
+
+/* ---------- "From the field" photo strip ---------- */
+.field-strip { margin: 0 0 2.5rem; }
+.field-strip h3 { text-align: center; margin-bottom: 1.1rem; }
+.field-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.field-grid figure { margin: 0; }
+.field-grid img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: var(--radius-sm); box-shadow: var(--shadow); }
+.field-grid figcaption { margin-top: .55rem; font-size: .88rem; line-height: 1.45; color: var(--muted); }
+@media (max-width: 700px) { .field-grid { grid-template-columns: 1fr 1fr; gap: .8rem; } .field-grid figcaption { font-size: .82rem; } }
