@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pointrangesystems.com/sitemap.xml
